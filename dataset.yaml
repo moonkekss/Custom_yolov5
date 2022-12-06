@@ -1,0 +1,25 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+
+train: ../dataset/images/train/  # train images (relative to 'path') 1281167 images
+val: ../dataset/images/val/  # val images (relative to 'path') 50000 images
+test: ../dataset/images/test/ # test images (optional)
+
+# number of classes
+nc: 15
+
+# class names
+names: ["closet",
+"clothescloset,clothespress",
+"consoletable,console",
+"convertible,sofabed",
+"coveredcouch",
+"dining-roomtable",
+"n03201208",
+"floorlamp",
+"lamp",
+"sofa,couch,lounge",
+"studiocouch,daybed",
+"table",
+"tablelamp",
+"n04550184",
+"board,table"]
